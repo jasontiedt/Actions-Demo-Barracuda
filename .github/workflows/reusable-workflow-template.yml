@@ -20,4 +20,4 @@ jobs:
 
   call_dependencies_workflow_job:
     needs: call_reusable_workflow_job
-    uses: jasontiedt/gh-abcs-actions/.github/workflows/job-dependencies.yml@main
+    uses: jasontiedt/Actions-Demo-Barracuda/.github/workflows/job-dependencies.yml@main
