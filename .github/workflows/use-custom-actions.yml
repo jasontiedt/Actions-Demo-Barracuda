@@ -13,7 +13,7 @@ permissions:
 jobs:
   
   js-custom-actions:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Windows, x64, demo-runner]
     steps:
       - uses: actions/checkout@v3
 
